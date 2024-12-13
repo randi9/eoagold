@@ -1,0 +1,12 @@
+{
+  "slides": [
+    {
+      "src": "../assets/images/3.jpg",
+      "alt": "gambar 1"
+    },
+    {
+      "src": "../assets/images/5.jpg",
+      "alt": "gambar 2"
+    }
+  ]
+}
