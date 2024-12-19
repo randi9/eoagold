@@ -1,6 +1,6 @@
 ### About
 
-A software house profile website built with ReactJS and TailwindCSS :computer:
+A profile website EOAGOLD built with ReactJS and TailwindCSS :computer:
 
 ### Tech Stack
 
@@ -19,9 +19,6 @@ A software house profile website built with ReactJS and TailwindCSS :computer:
 - [**React Toastify**](https://www.npmjs.com/package/react-toastify) : Toast notification
 - [**ESLint**](https://eslint.org/) : Linting and formatting
 
-### Demo
-
-**Demo :** [racxstudio.vercel.app](https://racxstudio.vercel.app/)
 
 ### Available Scripts
 
