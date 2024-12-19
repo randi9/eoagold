@@ -6,17 +6,22 @@
 import { Route, Routes } from "react-router-dom";
 
 import LandingPage from "pages/LandingPage";
+import Grafik from "pages/Grafik";
+import Produk from "pages/Produk";
+import Kontak from "pages/Kontak";
 
 import NotFoundPage from "pages/NotFoundPage";
-import TeamPage from "pages/TeamPage";
+import Eoagold from "pages/Eoagold";
 import "./assets/css/styles.css";
 
 function App() {
   return (
     <Routes>
       <Route exact path="/" element={<LandingPage />} />
-      <Route exact path="/team" element={<TeamPage />} />
-
+      <Route exact path="/eoagold" element={<Eoagold />} />
+      <Route exact path="/grafik" element={<Grafik />} />
+      <Route exact path="/produk" element={<Produk />} />
+      <Route exact path="/kontak" element={<Kontak />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );

@@ -26,10 +26,10 @@ export default function Header() {
           <li>
             <Button
               className={`${
-                path === "/" ? "active-link" : ""
+                path === "/eoagold" ? "active-link" : ""
               } font-medium text-lg px-5 no-underline hover:underline`}
               type="link"
-              href="/"
+              href="/eoagold"
             >
               EOA GOLD
             </Button>
@@ -37,21 +37,10 @@ export default function Header() {
           <li className="py-2 lg:py-0">
             <Button
               className={`${
-                path === "/team" ? "active-link" : ""
+                path === "/grafik" ? "active-link" : ""
               } font-medium text-lg px-5 no-underline hover:underline`}
               type="link"
-              href="/team"
-            >
-              Produk
-            </Button>
-          </li>
-          <li className="py-2 lg:py-0">
-            <Button
-              className={`${
-                path === "/project" ? "active-link" : ""
-              } font-medium text-lg px-5 no-underline hover:underline`}
-              type="link"
-              href="/project"
+              href="/grafik"
             >
               Grafik
             </Button>
@@ -59,10 +48,21 @@ export default function Header() {
           <li className="py-2 lg:py-0">
             <Button
               className={`${
-                path === "/project" ? "active-link" : ""
+                path === "/produk" ? "active-link" : ""
               } font-medium text-lg px-5 no-underline hover:underline`}
               type="link"
-              href="/project"
+              href="/produk"
+            >
+              Produk
+            </Button>
+          </li>
+          <li className="py-2 lg:py-0">
+            <Button
+              className={`${
+                path === "/kontak" ? "active-link" : ""
+              } font-medium text-lg px-5 no-underline hover:underline`}
+              type="link"
+              href="/kontak "
             >
               Kontak
             </Button>
@@ -113,43 +113,45 @@ export default function Header() {
             <li className="py-2 bg-white">
               <Button
                 className={`${
-                  path === "/" ? "active-link" : ""
+                  path === "/eoagold" ? "active-link" : ""
                 } font-medium px-10 no-underline hover:underline`}
                 type="link"
-                href="/"
+                href="/eoagold"
               >
-                Home
+                EOAGOLD
               </Button>
             </li>
             <li className="py-2 bg-white">
               <Button
                 className={`${
-                  path === "/team" ? "active-link" : ""
+                  path === "/grafik" ? "active-link" : ""
                 } font-medium px-10 no-underline hover:underline`}
                 type="link"
-                href="/team"
+                href="/grafik"
               >
-                Team
+                Grafik
               </Button>
             </li>
             <li className="py-2 bg-white">
               <Button
                 className={`${
-                  path === "/project" ? "active-link" : ""
+                  path === "/produk" ? "active-link" : ""
                 } font-medium px-10 no-underline hover:underline`}
                 type="link"
-                href="/project"
+                href="/produk"
               >
-                Project
+                Produk
               </Button>
             </li>
-            <li className="mx-auto my-9 bg-white">
+            <li className="py-2 bg-white">
               <Button
-                className="font-bold mx-auto px-5 py-2 bg-theme-purple text-white rounded-full border-2 border-theme-purple hover:bg-dark-theme-purple border-purple-800 transition duration-200"
+                className={`${
+                  path === "/kontak" ? "active-link" : ""
+                } font-medium px-10 no-underline hover:underline`}
                 type="link"
-                href="/discuss-project"
+                href="/kontak"
               >
-                Discuss Project
+                Kontak
               </Button>
             </li>
           </ul>
